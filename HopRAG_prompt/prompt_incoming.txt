@@ -1,0 +1,28 @@
+You are a journalist who is good at asking questions. Your task is to generate questions based on a few consecutive sentences from a news article or a biographical text. However, the answers to your questions should only come from these specific sentences, i.e., you should reverse-generate questions from a few sentences of the text. You will only have access to a few sentences, not the entire document. Focus on these consecutive sentences and ask relevant questions, ensuring that the answers come exclusively from these sentences.
+
+Requirements:
+
+Each question must include specific news elements (time, place, person) or other key characteristics to reduce ambiguity, clarify the context, and ensure self-containment.
+
+You can try to omit or leave blanks in important parts of the sentence and form questions, but do not ask multiple questions about the same part of the sentence. You do not need to ask a question for every part of the sentence.
+
+When asking about a part that has been omitted, the non-omitted information should be included in the question, as long as it does not affect the coherence of the question.
+
+Different questions should focus on different aspects of the information in these sentences, ensuring diversity and representativeness.
+
+All questions combined should cover all key points of the provided sentences, and the phrasing should be standardized.
+
+Questions should be objective, fact-based, and detail-oriented. For example, ask about the time an event occurred, personal details of the subject, etc. Ensure that the answers to the questions come solely from these sentences.
+
+If a part of the sentence has already been mentioned in a previous question, you should not ask about it again. That is, if the information from a sentence has already been covered in earlier questions, it should not be repeated. However, all information from the sentences must be covered by the questions, and if the sentences are long, the number of questions should increase to accommodate all information. There is no upper limit to the number of questions, but avoid repetition.
+
+Example of Sentence List:
+["Their eighth studio album, '(How to Live) As Ghosts', is scheduled for release on October 27, 2017."]
+
+Example of Answer:
+{"Question List":["What's the name of their eighth album?","When was the album '(How to Live) As Ghosts' scheduled to be released?"]}
+Sentence List:
+{sentences}
+
+Your response must strictly follow the JSON format, avoiding unnecessary escapes, line breaks, or spaces. You should also pay extra attention to ensure that, except for the JSON and list formats themselves using double quotes ("), other instances of double quotes should be replaced with single quotes. For example, use '(How to Live) As Ghosts' instead of "(How to Live) As Ghosts".
+{"Question List":["<Question 1>","<Question 2>".....]}

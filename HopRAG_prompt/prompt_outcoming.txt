@@ -1,0 +1,25 @@
+You are a journalist skilled in asking insightful questions. Your task is to generate follow-up questions based on a few consecutive sentences from a news article or biographical text. A follow-up question refers to a question whose answer is not found within the given sentences, but the answer may be inferred from the context before or after the given sentences, from related documents covering the same event, or from logical, causal, or temporal extensions of keywords within the given sentences.
+
+You will only have access to a few sentences, not the entire document. After reading the consecutive sentences, generate related questions ensuring that the answer is not contained within these specific sentences. You can try to predict what the reader might ask next after reading these sentences, but the answers to your questions should be as concise as possible, so it is better to focus on objective questions.
+
+Requirements:
+
+Each question must include specific news elements (time, place, person) or other key features to reduce ambiguity and ensure self-containment.
+
+Different follow-up questions should focus on diverse, objective aspects of the overall event represented by these sentences, ensuring variety and representativeness. Prioritize objective questions.
+
+Based on the given sentences, generate questions about details that involve causal relationships, parallelism, sequencing, progression, connections, and other logical aspects. Possible areas to explore include, but are not limited to: the background of the event, information, reasons, impacts, significance, development trends, or perspectives of the individuals involved.
+
+Questions should be objective, factual, and detail-oriented. For example, inquire about the time an event occurred, or ask for personal information about the subject. However, ensure that the answers to your questions are not contained in these specific sentences.
+
+Aim to generate as many questions as possible without repetition, but ensure that the answers to the questions do not appear in these sentences. There is no upper limit to the number of questions, but please avoid duplicating questions.
+
+Example of Sentence:
+"Their eighth studio album, '(How to Live) As Ghosts', is scheduled for release on October 27, 2017."
+Example of Answer:
+{"Question List":["Whose eighth studio album is '(How to Live) As Ghosts'?","How did the album '(How to Live) As Ghosts' perform?","How long did it take to make the album '(How to Live) As Ghosts'?"]}
+Sentences of News:
+{sentences}
+
+Your response must strictly follow the JSON format, avoiding unnecessary escapes, line breaks, or spaces. You should also pay extra attention to ensure that, except for the JSON and list formats themselves using double quotes ("), other instances of double quotes should be replaced with single quotes. For example, use '(How to Live) As Ghosts' instead of "(How to Live) As Ghosts".
+{"Question List":["<Question 1>","<Question 2>","<Question 3>".....]}

@@ -1,0 +1,245 @@
+{
+  "results": [
+    {
+      "query": "What company, recently discussed in TechCrunch articles, is not only facing criticism for its new generative AI model's architecture compared to GPT-4 but is also under scrutiny for its content practices on YouTube and accused of anticompetitive behavior that harms news publishers' revenue?",
+      "gold_answer": "Google",
+      "pred_answer": "Insufficient information.",
+      "f1_score": 0.0,
+      "iterations": 3,
+      "retrieval_time": 134.46978759765625,
+      "num_passages": 10,
+      "question_type": "inference_query",
+      "tree_hop_graph": null,
+      "summaries": [
+        "Staff picks of discounted tech, kitchen, travel, and pet items from past \"favorites\" articles are listed with available Cyber Monday deals.",
+        "Rugby Australia is expected to name Peter Horne as high-performance director, potentially aiding in recruiting Joe Schmidt as Wallabies coach.",
+        "Free agent Patrick Kane is nearing a decision on which NHL team to sign with, with Buffalo, Florida, Detroit, and Dallas as potential destinations.",
+        "Republicans dropped Jim Jordan as their House Speaker nominee after he failed to secure enough votes, deepening the House impasse.",
+        "Meta is accused of suppressing Palestinian voices through moderation bias, not just technical errors, on its platforms like Instagram.",
+        "The Warriors' recent draft history, beyond a few exceptions, has yielded limited success, hindering their ability to sustain championship contention.",
+        "Apple's \"Scary Fast\" event is expected to showcase new M3-powered MacBook Pros, iMacs, and potentially USB-C accessories.",
+        "Hipgnosis Songs Fund's board is delaying financial results due to concerns that Citrin Cooperman's valuation is too high compared to recent transactions.",
+        "A strong G3 geomagnetic storm triggered by CMEs caused widespread aurora and STEVE sightings as far south as Greece and Turkey.",
+        "UK regulator Ofcom released guidelines for tech firms to comply with the Online Safety Act, requiring proactive measures against illegal content."
+      ]
+    },
+    {
+      "query": "Which company, known for spending $26.3 billion in 2021 to secure its position as the default search engine on various platforms and criticized for not planning additional measures on YouTube in the next six months, also ranks local search results based on relevance, distance, and prominence according to an article from The Verge, and has been accused by news publishers of siphoning off content, readers, and ad revenue as reported by TechCrunch?",
+      "gold_answer": "Google",
+      "pred_answer": "Google",
+      "f1_score": 1.0,
+      "iterations": 3,
+      "retrieval_time": 131.83381748199463,
+      "num_passages": 10,
+      "question_type": "inference_query",
+      "tree_hop_graph": null,
+      "summaries": [
+        "Man United, struggling with injuries and poor form, visit Fulham, who haven't won against them since 2019.",
+        "The digital twin market is growing rapidly, with a projected CAGR of 30% through 2027, driven by sustainability goals, virtual sensors, partnerships, and interoperability initiatives.",
+        "Engadget highlights the best tech deals from Amazon's October 2023 Prime Day-like sale, including discounts on Apple, Samsung, and Amazon devices.",
+        "A Nebraska children's hospital's \"Caring Contacts\" program, which sends personalized notes to teenage suicide survivors, has shown positive results in preventing future attempts.",
+        "Graham Arnold is about to break the record for most games coached for the Socceroos, a feat made possible by a bold, career-saving call.",
+        "No. 17 Arizona dominated No. 22 Utah 42-18, marking their fifth straight win and first over Utah since 2015.",
+        "Boston Dynamics' CTO Aaron Saunders discusses the future of robotics, including AI's role, humanoid form factors, and the path to general-purpose robots.",
+        "Jada Pinkett Smith revealed that she and Will Smith didn't sign a prenup because they promised to work through any issues and avoid divorce.",
+        "Tottenham's unbeaten run ended in a 4-1 home defeat to Chelsea, with two Spurs players sent off.",
+        "Autosport's 2023 Top 50 drivers list sparked debate by excluding several deserving NASCAR drivers like Buescher and Hamlin."
+      ]
+    },
+    {
+      "query": "Did the 'Business Line' article published after the 'The Guardian' article suggest that Leqembi (lecanemab) is the only approved drug for Alzheimer's, while 'The Guardian' mentions recent scientific developments in tackling dementia without specifying the approval status of new drugs?",
+      "gold_answer": "no",
+      "pred_answer": "No",
+      "f1_score": 1.0,
+      "iterations": 3,
+      "retrieval_time": 135.97155857086182,
+      "num_passages": 10,
+      "question_type": "temporal_query",
+      "tree_hop_graph": null,
+      "summaries": [
+        "The standard Xbox Wireless Controller is the best overall choice, but premium, budget, customizable, and shooter-focused alternatives exist.",
+        "The Jaguars survived a late Saints comeback to win 31-24, improving to 5-2.",
+        "Despite Google's claims, early user experiences suggest Gemini Pro struggles with basic facts, translation, and coding tasks.",
+        "The Springboks are playing for their country, while the All Blacks are playing for themselves and departing leaders.",
+        "Orlando Arcia's taunting comments about Bryce Harper after Game 2 of the NLDS, reported by Jake Mintz, sparked controversy regarding clubhouse reporting ethics and led to backlash against Mintz, including a public apology from Alanna Rizzo.",
+        "SuperDraft offers NHL player prop parlays for Rangers-Red Wings and Devils-Avalanche games, highlighting Artemi Panarin, Daniel Sprong, Jesper Bratt, and Cale Makar.",
+        "This article provides Week 10 injury updates for fantasy football, including Justin Jefferson (OUT), Ja'Marr Chase (ACTIVE), T.J. Hockenson (ACTIVE), and Curtis Samuel (ACTIVE).",
+        "Australia advanced to the Davis Cup final after Popyrin and de Minaur won their singles matches against Finland.",
+        "Beyoncé's concert film \"Renaissance\" topped the box office with a $21 million debut in North America.",
+        "Amazon's Echo Frames prioritize style and Alexa access but offer less functionality and value compared to competitors like Ray-Ban Meta Smart Glasses."
+      ]
+    },
+    {
+      "query": "Does 'The Roar | Sports Writers Blog' suggest that 'The All Blacks' motivation for playing is the same as the Springboks' as per the first article, while also indicating that 'The All Blacks' handling was compromised by external factors in the second article, and does it confirm 'The All Blacks' losses to Argentina as stated in the third article?",
+      "gold_answer": "no",
+      "pred_answer": "Insufficient information.",
+      "f1_score": 0.0,
+      "iterations": 3,
+      "retrieval_time": 132.87737560272217,
+      "num_passages": 10,
+      "question_type": "comparison_query",
+      "tree_hop_graph": null,
+      "summaries": [
+        "The Apple Watch Series 9 and Ultra 2's \"double tap\" feature allows users to interact with the watch via a pinching gesture, offering a new hands-free way to perform primary actions.",
+        "France secured a dominant victory over Italy, led by Damian Penaud's two tries, to advance to the World Cup quarter-finals.",
+        "Govee's Matter-ready LED Strip Light M1 is on sale for $44.99 at Amazon, ideal for festive holiday decor.",
+        "In 2023, discoveries revealed a faster-approaching and more explosive solar maximum, a slightly smaller sun, solar auroras, ancient superflares, and more.",
+        "The PGMOL has issued multiple apologies for incorrect refereeing and VAR decisions in Premier League matches.",
+        "Several significant companies, including NIO, GameStop, DocuSign, and Broadcom, are scheduled to release their quarterly earnings reports in the first full week of December.",
+        "Israel's blockade of Gaza, compounded by recent restrictions, has halted vital supplies, exacerbating a dire humanitarian crisis in the already impoverished region.",
+        "This article outlines the author's best NFL Week 9 bets, including spreads, moneylines, over/unders, and player props.",
+        "Jamaica defeated Canada 3-2 in Toronto, advancing to the CONCACAF Nations League semifinal and Copa America 2024 on away goals after a 4-4 aggregate tie.",
+        "Australia reached the Davis Cup final after Popyrin and de Minaur won their singles matches against Finland."
+      ]
+    },
+    {
+      "query": "Which company is at the center of a class action antitrust suit for its alleged impact on news publishers' revenues, is accused of anticompetitive behavior in app distribution and payment processing by Epic Games, and has introduced a generative AI model called Gemini that claims to rival the performance of OpenAI's GPT-4, as reported by TechCrunch and The Verge?",
+      "gold_answer": "Google",
+      "pred_answer": "Google",
+      "f1_score": 1.0,
+      "iterations": 3,
+      "retrieval_time": 133.74671959877014,
+      "num_passages": 10,
+      "question_type": "inference_query",
+      "tree_hop_graph": null,
+      "summaries": [
+        "Collingwood coach Craig McRae revealed he wrote \"44 sons\" under his shirt collar, representing his players.",
+        "Super Mario Bros. Wonder blends traditional 2D Mario gameplay with innovative, reality-bending \"Wonder\" effects, making it a fitting end for the Switch.",
+        "The article details current deals on various Apple MacBooks and Mac Minis, highlighting discounts on both new and refurbished models.",
+        "James Gunn and Peter Safran are rebooting the DCEU as DC Studios, planning new DCU movies and TV shows.",
+        "Polygon highlights the best new TV series on major streaming platforms, including Netflix, Hulu, Prime Video, Max, Disney+, Paramount+, Apple TV+, and Peacock.",
+        "This article provides FanDuel and SuperDraft NFL DFS lineup picks and strategies for Week 14, including specific player recommendations and scoring rules.",
+        "Week 13 of the NFL season sees key injuries, including Joe Flacco starting for the Browns due to Thompson-Robinson's concussion.",
+        "Ten Hag refuted Carragher's criticism, citing statistics showing Manchester United's improvement in pressing and ball recovery, though acknowledging issues in converting chances.",
+        "Wallabies center Samu Kerevi expressed disappointment in his performance and the team's situation, defending coach Eddie Jones.",
+        "The digital twin market is growing rapidly with a projected CAGR of 30% through 2027, driven by sustainability goals, virtual sensors, cloud partnerships, and interoperability initiatives."
+      ]
+    },
+    {
+      "query": "Does the 'Sporting News' article claim that the England national rugby union team has had a different path to the Rugby World Cup semifinal compared to the path of The Wallabies (Australian national rugby union team) as implied by the 'Wide World Of Sports' article, with England defeating specific teams and The Wallabies' fate depending on a match between other teams?",
+      "gold_answer": "Yes",
+      "pred_answer": "Insufficient information.",
+      "f1_score": 0.0,
+      "iterations": 3,
+      "retrieval_time": 132.41372680664062,
+      "num_passages": 10,
+      "question_type": "comparison_query",
+      "tree_hop_graph": null,
+      "summaries": [
+        "The ASX rose due to Wall Street gains driven by rate optimism and potential Chinese stimulus, while oil prices dropped.",
+        "TechCrunch asked eight authors with startup ties for their holiday gift book recommendations.",
+        "Noirvember is a social media challenge for cinephiles to watch and discuss noir films, with recommendations provided.",
+        "In Baldur's Gate 3, Warlocks are Charisma-based casters who gain power through pacts with otherworldly beings, sacrificing spell versatility for potent, rechargeable magic.",
+        "The EU issued formal objections regarding Amazon's iRobot acquisition, focusing on potential foreclosure risks for iRobot's rivals on Amazon's marketplace.",
+        "According to explorer Jon Copley, we know more about the deep ocean than the moon or Mars, except for surface terrain mapping.",
+        "No. 17 Arizona dominated No. 22 Utah 42-18, extending their winning streak to five games and marking their first win against Utah since 2015.",
+        "Manchester United leads Chelsea in their historical head-to-head record across all competitions.",
+        "VTubing gained popularity but faces challenges like market saturation, agency restrictions, and talent burnout, hindering creative freedom and growth.",
+        "Jamaica defeated Canada 3-2 in Toronto, advancing to the CONCACAF Nations League semifinal and Copa America 2024 on away goals after a 4-4 aggregate tie."
+      ]
+    },
+    {
+      "query": "Does the Fortune article claim that Sam Bankman-Fried used Caroline Ellison as a front for secret access to customer funds at Alameda Research, while The Verge article alleges that Sam Bankman-Fried himself made the decision to use FTX customer funds to buy out Binance, indicating a difference in the reported involvement of Sam Bankman-Fried in the misuse of customer funds?",
+      "gold_answer": "Yes",
+      "pred_answer": "No",
+      "f1_score": 0.0,
+      "iterations": 3,
+      "retrieval_time": 132.1217269897461,
+      "num_passages": 10,
+      "question_type": "comparison_query",
+      "tree_hop_graph": null,
+      "summaries": [
+        "Nikola Jokic and Giannis Antetokounmpo are early favorites for the 2024 NBA MVP award, which is difficult to predict due to subjective criteria.",
+        "Connecticut moms, calling themselves \"Mombies,\" perform a Halloween dance to raise money for breast cancer research.",
+        "Julian Nagelsmann begins his tenure as Germany's head coach in a friendly against the USMNT, facing squad questions and travel schedule criticism.",
+        "UTSA is heavily favored against Marshall in the Frisco Bowl, with both teams impacted by transfer portal losses, especially Marshall at QB.",
+        "The USMNT announced their 23-man roster for October friendlies against Germany and Ghana, with Reyna returning and Adams injured.",
+        "Climate sensitivity depends on the geographic pattern of surface warming, impacting future warming estimates.",
+        "ChatGPT rapidly gained immense popularity and widespread adoption across various sectors within a year, despite some controversies and limitations.",
+        "Temu, a Chinese e-commerce app, was the most-downloaded free iPhone app in the U.S. in 2023.",
+        "Super Mario Bros. Wonder innovates the classic formula with Wonder Flowers, which introduce unpredictable and game-altering effects to each level.",
+        "Netflix's November lineup includes adult animation, reality shows, new seasons of popular series, and a focus on \"The Social Network.\""
+      ]
+    },
+    {
+      "query": "Does the 'Essentially Sports' article suggest that the NBA's Christmas games are secure regardless of the NFL's decisions, while the 'FOX News - Lifestyle' article discusses the impact of parents using Christmas as a bribe, without mentioning any potential threat to the NBA's Christmas dominance?",
+      "gold_answer": "no",
+      "pred_answer": "No",
+      "f1_score": 1.0,
+      "iterations": 3,
+      "retrieval_time": 132.44573664665222,
+      "num_passages": 10,
+      "question_type": "comparison_query",
+      "tree_hop_graph": null,
+      "summaries": [
+        "Polygon highlights the best new TV series on major streaming platforms, including Netflix, Hulu, and more.",
+        "The 49ers defeated the Eagles, the Lions reached 9-3 for the first time since 1962, and the Patriots hit a new low.",
+        "Pochettino defends James's passion and mistake, emphasizing his Chelsea DNA as the reason for his captaincy.",
+        "This article recommends six games, including Zelda, Animal Crossing, Mario, Hades, and Stardew Valley, to start with on the Nintendo Switch.",
+        "A large study links popular weight loss drugs like Ozempic and Wegovy to increased risk of serious gastrointestinal issues like stomach paralysis.",
+        "To mark its 5th anniversary, the streaming service Dropout, formerly CollegeHumor, will drop the CollegeHumor name to further distance itself from its past.",
+        "Mozilla is investing in the decentralized \"fediverse\" to create a safer, more user-centric social networking experience.",
+        "Owen Teale, known for playing villains like Ser Alliser Thorne, will play Scrooge in Melbourne's \"A Christmas Carol.\"",
+        "The Apple Watch Series 9 and Ultra 2's \"double tap\" feature allows users to interact with the watch via a pinching gesture, offering a new hands-free control method.",
+        "This week in tech news, Sam Altman backed a teen AI startup, Google unveiled the Pixel 8, and TikTok tested an ad-free tier."
+      ]
+    },
+    {
+      "query": "Does the 'Sporting News' article suggest that Cristian Romero's action in the Manchester United match was expected to be followed by an apology, while 'The Age' implies that people are willing to accept allegations of foul play regarding Google's search practices?",
+      "gold_answer": "Yes",
+      "pred_answer": "Insufficient information.",
+      "f1_score": 0.0,
+      "iterations": 3,
+      "retrieval_time": 133.63496804237366,
+      "num_passages": 10,
+      "question_type": "comparison_query",
+      "tree_hop_graph": null,
+      "summaries": [
+        "The Epoch Times, backed by Falun Gong, grew into a major conservative news outlet by promoting right-wing content and conspiracy theories.",
+        "This article recommends a variety of horror movies available on streaming services, ranging from classics to new releases.",
+        "Pochettino and Arteta share a close, familial bond stemming from Pochettino's mentorship of a young Arteta at PSG, significantly influencing his career.",
+        "Nike's revenue missed expectations but earnings and gross margin beat estimates, with stock rising despite concerns about China and consumer spending.",
+        "Dubai offers diverse seasonal activities, from winter outdoor adventures to summer waterparks and evening sightseeing, bookable with British Airways.",
+        "Michigan defeated Penn State without Harbaugh, but will need him against Ohio State.",
+        "Hamas's surprise attack on Israel raises questions about a massive intelligence failure by Mossad.",
+        "Israel's war on Hamas has devastated Palestine's growing tech industry in Gaza, destroying infrastructure and disrupting operations.",
+        "Concert films are gaining popularity as they offer accessible and affordable alternatives to increasingly expensive and inaccessible live concerts.",
+        "The Biden administration's new executive order aims to manage AI risks and harness its benefits through various measures, including safety standards, consumer protection, and worker support."
+      ]
+    },
+    {
+      "query": "Who is the individual associated with the FTX trial, who was once considered a trustworthy figure in the cryptocurrency industry according to The Verge, and is accused by the prosecution of committing fraud for personal gain as reported by TechCrunch?",
+      "gold_answer": "Sam Bankman-Fried",
+      "pred_answer": "Sam Bankman-Fried",
+      "f1_score": 1.0,
+      "iterations": 3,
+      "retrieval_time": 131.53112602233887,
+      "num_passages": 10,
+      "question_type": "inference_query",
+      "tree_hop_graph": null,
+      "summaries": [
+        "Pop star Taylor Swift and NFL tight end Travis Kelce are rumored to be dating, sparking increased interest in the Chiefs and NFL.",
+        "EU law changes could cost European artists/labels $137M annually, as US artists collect royalties in the EU while EU artists get nothing in the US.",
+        "Spider-Man's relatability, struggles, and moments of connection make him the perfect superhero for Thanksgiving, a holiday about basic human needs.",
+        "Economist Leo Leiderman discusses the significant, unprecedented economic damage of the ongoing war in Israel and proposes economic rehabilitation strategies.",
+        "Daye, a UK-based startup, is launching a tampon-based at-home STI screening service using PCR technology, starting in the UK.",
+        "Several small, affordable EV projects and vehicles, like the ElectraMeccanica Solo and Sono Sion, failed or were discontinued in 2023.",
+        "This article provides Week 10 injury updates for key NFL pass-catchers, including Jefferson (OUT), Chase (ACTIVE), Hockenson (ACTIVE), and Samuel (ACTIVE).",
+        "Scott McTominay's brace led Manchester United to a 2-1 victory over Chelsea.",
+        "Taylor Swift was named Time's 2023 Person of the Year after a record-breaking year.",
+        "COP28 fell short of a historic fossil fuel phase-out deal, settling for a weaker \"transitioning away\" commitment despite clean energy gains."
+      ]
+    }
+  ],
+  "metrics": {
+    "avg_f1": 0.5,
+    "avg_iterations": 3,
+    "avg_time": 133.10465433597565,
+    "treehop_stats": {
+      "total_queries": 20,
+      "total_hops": 38,
+      "overlap_applications": 20,
+      "avg_overlap_magnitude": 0.7924377804921244
+    }
+  }
+}
